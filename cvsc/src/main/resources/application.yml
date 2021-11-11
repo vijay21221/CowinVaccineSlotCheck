@@ -1,0 +1,26 @@
+micronaut:
+  application:
+    name: demo
+
+cowin:
+  state: Andhra Pradesh
+  district: Krishna
+  nearBy:
+    places:
+      - chowtapalli
+      - munukulla
+      - tiruvuru
+      - kankipadu
+      - g konduru
+      - mallela
+      - chintalapudi
+  schedule:
+    delay: 30s
+    fixedRate: 60m
+
+telegram:
+  bot:
+    token: ***********************
+    chat-id: **************
+    channel: covidVaccineNearTiruvuru
+
